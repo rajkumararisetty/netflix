@@ -7,7 +7,7 @@ export const Background = styled.div`
   background: url(${({ src }) =>
       src ? `../images/misc/${src}.jpg` : "../images/misc/home-bg.jpg"})
     top left / cover no-repeat;
-  border-bottom: 8px solid #222;
+  /* border-bottom: 8px solid #222; */
 `;
 
 export const Container = styled.div`
